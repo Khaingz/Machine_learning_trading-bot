@@ -86,7 +86,13 @@ Step 7. Create a cumulative return plot that shows the actual returns vs. the st
 #### Plot the actual returns versus the strategy returns
 (1+ predictions_df[['Actual Returns', 'Strategy Returns']]).cumprod().hvplot(title= "Strategy Returns vs Actual Returns using SVM Supervised Learning with Original Input")
 
-# Image attachment 
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%20Original%20Input%201.png)
+
+
+
+
+
+
 
 
 
@@ -97,7 +103,7 @@ Step 7. Create a cumulative return plot that shows the actual returns vs. the st
 
 Establish a Baseline Performance
 
-# Image attachment
+![alt text]((https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Baseline%20Performance%201.png))
 
 
 
@@ -108,9 +114,7 @@ Establish a Baseline Performance
 
 
 
-
-
-# Image attachment
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%20Original%20Input%201.png)
 
 
 
@@ -132,7 +136,7 @@ with a SMA short window of 4-days and a SMA long window of 100 days. The baselin
 
 Step 1. Tune the training algorithm by adjusting the size of the training dataset. To do so, slice your data into different periods. Rerun the notebook with the updated parameters, and record the results in your README.md file. 
 
-# Image
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/6%20Months%20performance%202.png)
 
 
 
@@ -141,7 +145,14 @@ Step 1. Tune the training algorithm by adjusting the size of the training datase
 
 
 
-# Image
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%206%20Months%202.png)
+
+
+
+
+
+
+
 
 
 
@@ -162,14 +173,29 @@ The new performance with the 6 months training has an accuracy at around 0.56 an
 
 Step 2. Tune the trading algorithm by adjusting the SMA input features. Adjust one or both of the windows for the algorithm. Rerun the notebook with the updated parameters, and record the results in your README.md file.
 
-# Image
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Ada%20Testing%20performance%204.png)
 
 
 
 
 
 
-# Image
+
+
+
+
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20vs.%20Actual%20Returns%20Modified%20SMA%20Windows%202%20days%20short%203.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -185,7 +211,11 @@ Step 3. Choose the set of parameters that best improved the trading algorithm re
 
 The best improved trading algorithm returns
 
-# Image
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%20Original%20Input%201.png)
+
+
+
+
 
 
 
@@ -246,7 +276,7 @@ display(predictions_df.tail())
 (1+ predictions_df[['Actual Returns', 'Strategy Returns']]).cumprod().hvplot(title= "Strategy Returns vs Actual Returns using AdaBoost Supervised Learning")
 
 
-# Image
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Ada%20Testing%20performance%204.png)
 
 
 
@@ -255,7 +285,13 @@ display(predictions_df.tail())
 
 
 
-# Image
+
+
+
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20AdaBoost%20Supervised%20Learning%204.png)
+
+
+
 
 
 
