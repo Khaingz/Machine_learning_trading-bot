@@ -89,7 +89,7 @@ Step 7. Create a cumulative return plot that shows the actual returns vs. the st
 
 Establish a Baseline Performance
 
-![alt text]
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Baseline%20Performance.png)
 
 
 
@@ -100,7 +100,11 @@ Establish a Baseline Performance
 
 
 
-![alt text]
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%20Original%20Input.png)
+
+
+
+
 
 
 
@@ -198,7 +202,13 @@ Step 3. Choose the set of parameters that best improved the trading algorithm re
 
 ## The Best improved trading algorithm returns
 
-![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%20Original%20Input%201.png)
+![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%20Original%20Input.png)
+
+
+
+
+
+
 
 
 
