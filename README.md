@@ -62,11 +62,10 @@ Step 5. Review the classification report associated with the SVC model predictio
 #### Use a classification report to evaluate the model using the predictions and testing data
 svm_testing_report = classification_report(y_test, svm_pred)
 
-# Print the classification report
+#### Print the classification report
 print(svm_testing_report)
 
 Step 6. Create a predictions DataFrame that contains columns for “Predicted” values, “Actual Returns”, and “Strategy Returns”.
-#### Create a new empty predictions DataFrame.
 #### Create a predictions DataFrame
 predictions_df = pd.DataFrame(index=X_test.index)
 
@@ -86,24 +85,11 @@ Step 7. Create a cumulative return plot that shows the actual returns vs. the st
 #### Plot the actual returns versus the strategy returns
 (1+ predictions_df[['Actual Returns', 'Strategy Returns']]).cumprod().hvplot(title= "Strategy Returns vs Actual Returns using SVM Supervised Learning with Original Input")
 
-![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%20Original%20Input%201.png)
-
-
-
-
-
-
-
-
-
-
-
-
 ## Create an Evaluation Report
 
 Establish a Baseline Performance
 
-![alt text]((https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Baseline%20Performance%201.png))
+![alt text]
 
 
 
@@ -114,7 +100,7 @@ Establish a Baseline Performance
 
 
 
-![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%20Original%20Input%201.png)
+![alt text]
 
 
 
@@ -137,6 +123,7 @@ with a SMA short window of 4-days and a SMA long window of 100 days. The baselin
 Step 1. Tune the training algorithm by adjusting the size of the training dataset. To do so, slice your data into different periods. Rerun the notebook with the updated parameters, and record the results in your README.md file. 
 
 ![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/6%20Months%20performance%202.png)
+
 
 
 
@@ -209,7 +196,7 @@ The new performance with the adjusting the SMA short window has an accuracy at a
 
 Step 3. Choose the set of parameters that best improved the trading algorithm returns. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns, and document your conclusion in your README.md file.
 
-The best improved trading algorithm returns
+## The Best improved trading algorithm returns
 
 ![alt text](https://github.com/Khaingz/Machine_learning_trading_bot/blob/main/Strategy%20Returns%20vs%20Actual%20Returns%20using%20SVM%20Supervised%20Learning%20with%20Original%20Input%201.png)
 
